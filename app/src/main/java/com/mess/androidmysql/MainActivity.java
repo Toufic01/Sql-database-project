@@ -37,7 +37,7 @@ Button submit,next,update,delect;
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),RegisterActivity.class));
+                startActivity(new Intent(getApplicationContext(),Fatch.class));
             }
         });
 

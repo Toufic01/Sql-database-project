@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fatch">
+
+    <TextView
+        android:id="@+id/name_txt_id"
+        android:layout_width="352dp"
+        android:layout_height="72dp"
+        android:padding="5dp"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="5dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/joinDate_txt_id"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:text="Join data"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/eamil_txt_id"
+        app:layout_constraintStart_toStartOf="@+id/eamil_txt_id"
+        app:layout_constraintTop_toBottomOf="@+id/eamil_txt_id" />
+
+    <TextView
+        android:id="@+id/eamil_txt_id"
+        android:layout_width="349dp"
+        android:layout_height="69dp"
+        android:text="Email"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/address_txt_id"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/address_txt_id"
+        app:layout_constraintTop_toBottomOf="@+id/address_txt_id" />
+
+    <TextView
+        android:id="@+id/address_txt_id"
+        android:layout_width="351dp"
+        android:layout_height="64dp"
+        android:text="Your location"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/name_txt_id"
+        app:layout_constraintStart_toStartOf="@+id/name_txt_id"
+        app:layout_constraintTop_toBottomOf="@+id/name_txt_id" />
+</androidx.constraintlayout.widget.ConstraintLayout>

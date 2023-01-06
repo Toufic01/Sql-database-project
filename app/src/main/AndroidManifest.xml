@@ -3,6 +3,7 @@
     package="com.mess.androidmysql">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -11,18 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RetriveActivity">
+        <activity android:name=".Fatch"></activity>
+        <activity android:name=".DelectActivity" />
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".DelectActivity" />
-        <activity android:name=".UpdateActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".MainActivity">
-
         </activity>
     </application>
 
